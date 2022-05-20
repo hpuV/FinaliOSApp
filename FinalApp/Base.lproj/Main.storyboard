@@ -117,14 +117,48 @@
                     <view key="view" contentMode="scaleToFill" id="Sz1-1O-3tn" userLabel="DetailView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9JI-Hc-dsD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hym-cT-lox">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ha9-dZ-u8p">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="800" id="ef7-tC-tF0"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hym-cT-lox" firstAttribute="width" secondItem="PQy-BG-CYn" secondAttribute="width" id="Bgv-s4-5Gi"/>
+                                    <constraint firstItem="hym-cT-lox" firstAttribute="bottom" secondItem="KSy-dT-Xds" secondAttribute="bottom" id="Gc5-Tz-8EQ"/>
+                                    <constraint firstItem="hym-cT-lox" firstAttribute="trailing" secondItem="KSy-dT-Xds" secondAttribute="trailing" id="m8u-Md-Ogp"/>
+                                    <constraint firstItem="KSy-dT-Xds" firstAttribute="top" secondItem="hym-cT-lox" secondAttribute="top" id="s4D-lS-kUZ"/>
+                                    <constraint firstItem="hym-cT-lox" firstAttribute="leading" secondItem="KSy-dT-Xds" secondAttribute="leading" id="wVf-zc-4YC"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="KSy-dT-Xds"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="PQy-BG-CYn"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="mPR-io-Oj1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9JI-Hc-dsD" firstAttribute="top" secondItem="Sz1-1O-3tn" secondAttribute="top" id="BcX-gq-ORE"/>
+                            <constraint firstItem="9JI-Hc-dsD" firstAttribute="leading" secondItem="mPR-io-Oj1" secondAttribute="leading" id="TNf-Z9-4aB"/>
+                            <constraint firstAttribute="bottom" secondItem="9JI-Hc-dsD" secondAttribute="bottom" id="a9z-AN-3dW"/>
+                            <constraint firstItem="9JI-Hc-dsD" firstAttribute="trailing" secondItem="mPR-io-Oj1" secondAttribute="trailing" id="xgr-hJ-i1d"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Grt-ha-eVy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dEK-cB-4QW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2320" y="20"/>
+            <point key="canvasLocation" x="2318.840579710145" y="19.565217391304348"/>
         </scene>
         <!--購物車-->
         <scene sceneID="jv5-hs-JRd">
