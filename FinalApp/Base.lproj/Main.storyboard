@@ -474,13 +474,53 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="KSy-dT-Xds"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="PQy-BG-CYn"/>
                             </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lSm-wN-JVF">
+                                <rect key="frame" x="0.0" y="627" width="414" height="60"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="jxo-xX-RTp">
+                                        <rect key="frame" x="8" y="10" width="398" height="40"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxM-8Y-ftd">
+                                                <rect key="frame" x="0.0" y="0.0" width="188.33333333333334" height="40"/>
+                                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <state key="normal" title="Add to Cart">
+                                                    <color key="titleColor" red="0.73725490199999999" green="0.1333333333" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jb3-wU-NfE">
+                                                <rect key="frame" x="218.33333333333337" y="0.0" width="179.66666666666663" height="40"/>
+                                                <color key="backgroundColor" red="0.73725490199999999" green="0.1333333333" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <state key="normal" title="Buy Now">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="c3Z-ez-DlA"/>
+                                            <constraint firstAttribute="height" constant="40" id="htR-34-IDb"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="GAz-Of-PG5"/>
+                                    <constraint firstItem="jxo-xX-RTp" firstAttribute="centerY" secondItem="lSm-wN-JVF" secondAttribute="centerY" id="fna-hy-AgH"/>
+                                    <constraint firstAttribute="trailing" secondItem="jxo-xX-RTp" secondAttribute="trailing" constant="8" id="jKt-6U-Atc"/>
+                                    <constraint firstItem="jxo-xX-RTp" firstAttribute="leading" secondItem="lSm-wN-JVF" secondAttribute="leading" constant="8" id="odZ-Ro-y6O"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mPR-io-Oj1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="9JI-Hc-dsD" firstAttribute="top" secondItem="Sz1-1O-3tn" secondAttribute="top" id="BcX-gq-ORE"/>
+                            <constraint firstItem="mPR-io-Oj1" firstAttribute="bottom" secondItem="lSm-wN-JVF" secondAttribute="bottom" id="Hy6-rH-26d"/>
+                            <constraint firstItem="mPR-io-Oj1" firstAttribute="trailing" secondItem="lSm-wN-JVF" secondAttribute="trailing" id="PgX-Cz-H8h"/>
                             <constraint firstItem="9JI-Hc-dsD" firstAttribute="leading" secondItem="mPR-io-Oj1" secondAttribute="leading" id="TNf-Z9-4aB"/>
                             <constraint firstAttribute="bottom" secondItem="9JI-Hc-dsD" secondAttribute="bottom" id="a9z-AN-3dW"/>
+                            <constraint firstItem="lSm-wN-JVF" firstAttribute="leading" secondItem="mPR-io-Oj1" secondAttribute="leading" id="kxu-ca-nnJ"/>
                             <constraint firstItem="9JI-Hc-dsD" firstAttribute="trailing" secondItem="mPR-io-Oj1" secondAttribute="trailing" id="xgr-hJ-i1d"/>
                         </constraints>
                     </view>
@@ -537,6 +577,12 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
