@@ -15,6 +15,7 @@
 		AFECB5AB2837694E0055E6DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFECB5A92837694E0055E6DC /* Main.storyboard */; };
 		AFECB5AD2837694E0055E6DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFECB5AC2837694E0055E6DC /* Assets.xcassets */; };
 		AFECB5B02837694E0055E6DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFECB5AE2837694E0055E6DC /* LaunchScreen.storyboard */; };
+		AFECB5BD283792870055E6DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFECB5BC283792870055E6DC /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AFECB5AC2837694E0055E6DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFECB5AF2837694E0055E6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFECB5B12837694E0055E6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFECB5BC283792870055E6DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				AFECB5AC2837694E0055E6DC /* Assets.xcassets */,
 				AFECB5AE2837694E0055E6DC /* LaunchScreen.storyboard */,
 				AFECB5B12837694E0055E6DC /* Info.plist */,
+				AFECB5BC283792870055E6DC /* GoogleService-Info.plist */,
 			);
 			path = FinalApp;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFECB5B02837694E0055E6DC /* LaunchScreen.storyboard in Resources */,
+				AFECB5BD283792870055E6DC /* GoogleService-Info.plist in Resources */,
 				AFECB5AD2837694E0055E6DC /* Assets.xcassets in Resources */,
 				AFECB5AB2837694E0055E6DC /* Main.storyboard in Resources */,
 			);
