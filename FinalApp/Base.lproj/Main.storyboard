@@ -135,10 +135,10 @@
             </objects>
             <point key="canvasLocation" x="-1959.4202898550727" y="328.53260869565219"/>
         </scene>
-        <!--View Controller-->
+        <!--Regiser Page View Controller-->
         <scene sceneID="lPt-Fy-wyJ">
             <objects>
-                <viewController id="bXR-ub-VBw" sceneMemberID="viewController">
+                <viewController id="bXR-ub-VBw" customClass="RegiserPageViewController" customModule="FinalApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bwE-SK-E2n">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -239,6 +239,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="4r7-rp-anv"/>
+                    <connections>
+                        <outlet property="passwordTextField" destination="9L4-1t-fLR" id="rdv-IC-7cd"/>
+                        <outlet property="regiserOutlet" destination="Zh4-8B-fbD" id="4uI-3i-cAD"/>
+                        <outlet property="titleLab" destination="3GB-P0-WjK" id="NCk-hJ-1c0"/>
+                        <outlet property="usernameTextField" destination="6Vb-gR-hKV" id="Swv-e8-aAR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dmJ-Cb-OZZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
